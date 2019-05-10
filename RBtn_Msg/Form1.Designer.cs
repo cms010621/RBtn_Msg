@@ -140,6 +140,7 @@
             this.btnShow.TabIndex = 2;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // Form1
             // 
@@ -153,6 +154,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "텍스트 박스 보기";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.gpOption1.ResumeLayout(false);
             this.gpOption1.PerformLayout();
             this.gpOption2.ResumeLayout(false);
